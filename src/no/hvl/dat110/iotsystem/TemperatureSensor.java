@@ -10,6 +10,6 @@ public class TemperatureSensor {
 
 		double temp = RANGE * Math.sin(seconds / 1000);
 
-		return (int) Math.ceil(temp);
+		return (int) Math.ceil(temp); 
 	}
 }

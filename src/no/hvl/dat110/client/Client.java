@@ -21,7 +21,7 @@ public class Client extends Thread {
 
 	}
 
-	public Message receive() {
+	public Message receive() { 
 
 		return MessageUtils.fromTransportMessage(connection.receive());
 

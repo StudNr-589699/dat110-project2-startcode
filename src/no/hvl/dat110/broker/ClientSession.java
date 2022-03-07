@@ -21,7 +21,7 @@ public class ClientSession {
 
 		if (connection != null) {
 			connection.close();
-		}
+		} 
 	}
 
 	public String getUser() {
